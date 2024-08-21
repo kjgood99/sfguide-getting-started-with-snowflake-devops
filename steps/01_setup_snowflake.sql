@@ -10,7 +10,7 @@ CREATE DATABASE IF NOT EXISTS QUICKSTART_COMMON;
 -- API integration is needed for GitHub integration
 CREATE OR REPLACE API INTEGRATION git_api_integration
   API_PROVIDER = git_https_api
-  API_ALLOWED_PREFIXES = ('https://github.com/kjgood99@hotmail.com') -- INSERT YOUR GITHUB USERNAME HERE
+  API_ALLOWED_PREFIXES = ('https://github.com/kjgood99') -- INSERT YOUR GITHUB USERNAME HERE
   ENABLED = TRUE;
 
 
